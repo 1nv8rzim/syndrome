@@ -1,0 +1,5 @@
+---
+- name: execute syndrome
+  ansible.builtin.script: 
+    cmd: syndrome.sh
+  when: not (ansible_facts['os_family'] == "Windows")

@@ -1,0 +1,5 @@
+- name: run syndrome
+  hosts: all
+  become: yes
+  roles:
+    - syndrome

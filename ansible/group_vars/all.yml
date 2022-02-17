@@ -1,0 +1,7 @@
+ansible_connection: ssh
+become_method: sudo
+become_user: root
+become: yes
+ansible_user: max
+ansible_password: max
+ansible_sudo_pass: max
